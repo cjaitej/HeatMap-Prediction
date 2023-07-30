@@ -12,7 +12,6 @@ class AttentionGate(nn.Module):
 
     def forward(self, g, x):
         g = self.g_conv_layer(g)
-        l = self.x_conv_layer(x)
         g = torch.cat([g, self.x_conv_layer(x)], dim=1)
         g = nn.ReLU()(g)
         g = self.si_conv_layer(g)
@@ -56,7 +55,6 @@ class UpSampling(nn.Module):
         x = self.upsampling_layer(x)
         x = torch.cat([x, intermediate_value], dim=1)
         return self.conv_layer(x)
-
 
 
 
