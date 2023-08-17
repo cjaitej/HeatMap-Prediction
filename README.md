@@ -4,18 +4,13 @@ Transforming Pictures: In this project I used HeatMaps to turn flat pictures int
 
 Image 1:
 
-<img src="https://github.com/cjaitej/HeatMap-Prediction/blob/main/Results/1.jpg" width=300>                            
-
-Result 1:
-
-<img src="https://github.com/cjaitej/HeatMap-Prediction/blob/main/Results/1.gif" width=350>
+<img src="https://github.com/cjaitej/HeatMap-Prediction/blob/main/Results/1.jpg" width=300 align="left" >  
+<img src="https://github.com/cjaitej/HeatMap-Prediction/blob/main/Results/1.gif" width=350 >
 
 
-Image 1:
+Image 2:
 
-<img src="https://github.com/cjaitej/HeatMap-Prediction/blob/main/Results/2.jpg" width=300>                            
-
-Result 1:
+<img src="https://github.com/cjaitej/HeatMap-Prediction/blob/main/Results/2.jpg" width=300 align="left">                            
 
 <img src="https://github.com/cjaitej/HeatMap-Prediction/blob/main/Results/2.gif" width=350>
 
